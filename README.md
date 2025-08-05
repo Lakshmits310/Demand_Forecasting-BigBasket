@@ -8,6 +8,10 @@ Predict future product sales and get reorder recommendations to avoid stock-outs
 - FastAPI backend serving Prophet forecasts
 - Power BI integration for executive reporting
 
+## Dataset
+- **Source**: [BigBasket Products Dataset (Kaggle)]([https://www.kaggle.com/datasets/ankurzing/sales-forecasting-bigbasket](https://www.kaggle.com/datasets/surajjha101/bigbasket-entire-product-list-28k-datapoints))  
+- Raw data is stored under `data/raw/` and processed into `data/processed/`.
+
 ### Project Structure
 ```bash
 ecommerce-demand-forecasting/
@@ -40,7 +44,7 @@ ecommerce-demand-forecasting/
 ## **Implementation Steps**
 ### **1. Setup Environment**
 ```bash
-git clone https://github.com/<username>/ecommerce-demand-forecasting.git
+git clone https://github.com/<username>/ecommerce-demand-forecasting.git](https://github.com/Lakshmits310/Demand_Forecasting-BigBasket.git
 cd ecommerce-demand-forecasting
 python -m venv venv
 venv\Scripts\activate   # Windows
@@ -56,7 +60,7 @@ pip install -r requirements.txt
 
 ### **3. Run FastAPI Backend**
 ```bash
-uvicorn app:app --reload
+uvicorn api.app:app --reload
 ```
 API available at: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 
