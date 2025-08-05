@@ -9,7 +9,7 @@ Predict future product sales and get reorder recommendations to avoid stock-outs
 - Power BI integration for executive reporting
 
 ## Dataset
-- **Source**: [BigBasket Products Dataset (Kaggle)]([https://www.kaggle.com/datasets/ankurzing/sales-forecasting-bigbasket](https://www.kaggle.com/datasets/surajjha101/bigbasket-entire-product-list-28k-datapoints))  
+- **Source**: https://www.kaggle.com/datasets/surajjha101/bigbasket-entire-product-list-28k-datapoints  
 - Raw data is stored under `data/raw/` and processed into `data/processed/`.
 
 ### Project Structure
