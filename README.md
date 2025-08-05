@@ -8,7 +8,8 @@ Predict future product sales and get reorder recommendations to avoid stock-outs
 - FastAPI backend serving Prophet forecasts
 - Power BI integration for executive reporting
 
-## **Project Structure**
+### Project Structure
+```bash
 ecommerce-demand-forecasting/
 │
 ├── api/
@@ -34,7 +35,7 @@ ecommerce-demand-forecasting/
 │
 ├── requirements.txt           # Python dependencies
 └── README.md                  # Project documentation
-
+```
 
 ## **Implementation Steps**
 ### **1. Setup Environment**
