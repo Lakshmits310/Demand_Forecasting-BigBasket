@@ -12,24 +12,29 @@ Predict future product sales and get reorder recommendations to avoid stock-outs
 ecommerce-demand-forecasting/
 │
 ├── api/
-│   └── app.py                     # FastAPI backend (forecast API)
+│   └── app.py                 # FastAPI backend (forecast API)
+│
 ├── dashboard/
 │   └── streamlit_app.py       # Streamlit frontend (user-facing UI)
+│
 ├── data/
 │   ├── raw/                   # Raw input data (e.g., BigBasket_Products.csv)
 │   └── processed/             # Processed data & per-product CSVs
-│       ├── historical\_sales.csv
+│       ├── historical_sales.csv
 │       ├── products/
-│       │   └── BB0001.csv
-|       |   └── BB0002.csv
-|       |   └── BB0003.csv
-|       |   └── BB0004.csv
-|       |   └── BB0005.csv
+│       │   ├── BB0001.csv
+│       │   ├── BB0002.csv
+│       │   ├── BB0003.csv
+│       │   ├── BB0004.csv
+│       │   └── BB0005.csv
 │       └── product_metadata.csv
+│
 ├── src/
-│   └── generate\_metadata.py   # Script to create product metadata and other preprocessing and feature engineering files
-├── requirements.txt
-└── README.md
+│   └── generate_metadata.py   # Script to create product metadata and preprocessing/feature engineering
+│
+├── requirements.txt           # Python dependencies
+└── README.md                  # Project documentation
+
 
 ## **Implementation Steps**
 ### **1. Setup Environment**
